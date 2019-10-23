@@ -1,0 +1,423 @@
+
+        body {
+            font-family: Roboto;
+            background: #adadad;
+        }
+
+        .s1 {
+            max-width: 768px;
+            display: block;
+            margin: 0 auto;
+            background: #fff;
+            padding: 10px 15px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .Comments {
+            display: block;
+            padding: 20px 10px 15px;
+            max-width: 500px;
+            margin: 0 auto 15px auto;
+            width: auto;
+
+            box-shadow: 0px 1px 2px 0px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.33);
+        }
+
+        .Comments .Comment_img {
+            display: block;
+            width: 56px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .Comment_name p {
+            color: #4267b2;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .comment_Time {
+            font-size: 10px;
+            color: #aaaaaa;
+            margin: 0;
+            padding: 1px 0 0 0;
+        }
+
+        .under_Comment {
+            display: block;
+            width: auto;
+            margin-left: 66px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+        }
+
+        .Comment_content {
+
+            display: block;
+            width: auto;
+            margin-left: 66px;
+
+        }
+
+        .Comment_content p {
+            font-size: 14px;
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
+
+        .under_Comment {
+            color: #4267b2;
+            margin: 0 0 0 66px;
+            padding: 10px 0 15px 0;
+            font-size: 13px;
+        }
+
+        .under_Comment .Comment_likes_img {
+            width: 11px;
+        }
+
+        .Comment_likes_img {
+            width: 15px;
+            margin-right: 4px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .Comment_likes {
+            padding-left: 25px;
+            margin-left: -25px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .Open_comm_input {
+            padding-left: 10px;
+        }
+
+        .add_Comment {
+            max-width: 456px;
+            height: auto;
+            padding-bottom: 33px;
+            margin-top: 5px;
+        }
+
+        .Comm_input {
+            display: block;
+            max-width: 480px;
+            margin-top: 5px;
+            height: 91px;
+            width: auto;
+            border-radius: 10px;
+            border: solid 1px #e0e0e0;
+            background-color: #f5f5f5;
+        }
+
+        textarea {
+            display: block;
+            resize: none;
+            background: #f5f5f5;
+            width: 98%;
+            border-radius: 9px;
+            border: none;
+            height: 100%;
+            outline: none;
+            -moz-appearance: none;
+        }
+
+        .add_Comment input {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #ee3355;
+            border: none;
+            border-radius: 9px;
+
+        }
+
+        .new_Comment {
+            max-width: 460px;
+            width: auto;
+            margin: 10px 0 0 55px;
+            padding-top: 5px;
+            height: auto;
+            min-height: 100px;
+
+
+        }
+
+        .new_Comment .new_Comment_img {
+            float: left;
+            width: 28px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .add_Comment .nama {
+            width: 60px;
+            margin-right: 10px;
+            height: 20px;
+            border-radius: 10px;
+            border: solid 1px #e0e0e0;
+            background-color: #f5f5f5;
+        }
+
+        .add_Comment .sername {
+            width: 60px;
+            height: 20px;
+            border-radius: 10px;
+            border: solid 1px #e0e0e0;
+            background-color: #f5f5f5;
+        }
+
+        .new_Comment .Comment_content {
+            display: block;
+            width: auto;
+            height: auto;
+            margin-left: 38px;
+            max-width: 420px;
+        }
+
+        .new_Comment .Comment_content p {
+            display: block;
+            height: auto;
+            max-width: 440px;
+            width: auto;
+            font-size: 14px;
+            margin: 0;
+            overflow: hidden;
+            padding: 10px 0 0 0;
+        }
+
+        .new_Comment .under_Comment {
+            margin: 0 0 0 38px;
+        }
+
+        .add_Comment .send,
+        .add_Comment .reset {
+            float: right;
+            margin-left: 10px;
+            color: #fff;
+            width: 92px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: #4267b2;
+        }
+
+
+
+        .kom_div {
+            display: block;
+            max-width: 768px;
+            width: auto;
+            padding: 10px 0;
+
+            margin-bottom: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            font-size: 12px;
+        }
+
+        .kom_div p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .kom_div p span {
+            padding: 0 0 0 10px;
+
+        }
+
+        .mail-wrapp {
+            padding: 10px;
+            background: #ffae50 linear-gradient(to bottom, #ffe1be, #ffae50, #ff9b26) repeat scroll 0 0;
+
+        }
+
+
+        .mail {
+            display: block;
+
+            background-color: #fff;
+            box-shadow: 0 0 10px #999;
+            padding: 30px 15px 50px;
+            color: #888;
+
+
+
+        }
+
+        .clearfix {
+            zoom: 1
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table
+        }
+
+        .clearfix:after {
+            clear: both
+        }
+
+
+        .mail img {
+            box-shadow: none;
+            padding: 0;
+            margin: 0
+        }
+
+        .mail .mail-header {
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee
+        }
+
+        .mail-header .title {
+            font-weight: 700;
+            vertical-align: middle;
+            float: left
+        }
+
+        .mail-header .inbox {
+            margin-left: 30px;
+            background-color: #ddd;
+            display: inline-block;
+            padding: 0 5px;
+            margin-top: 0;
+            vertical-align: top;
+            font-size: 12px
+        }
+
+        .mail-header img {
+            float: right
+        }
+
+        .mail-body {
+            margin-top: 20px;
+            border-bottom: 2px solid #eee
+        }
+
+        .mail-body .ava {
+            float: left;
+            width: 7%;
+            margin-right: 10px;
+        }
+
+        .mail-body .entry {
+            float: right;
+            width: 90%
+        }
+
+        .mail-body .entry-header {
+            margin-bottom: 20px
+        }
+
+        .entry-text p {
+            margin-top: 5px;
+            padding-top: 0;
+            color: #000;
+            font-size: 15px
+        }
+
+        .mail-body .entry-header .name {
+            float: left
+        }
+
+        .mail-body .entry-header .name p {
+            margin: 5px 0
+        }
+
+        .mail-body .entry-header .name span {
+            color: #ccc
+        }
+
+        .mail-body .entry-header .date {
+            float: right
+        }
+
+        .mail-body .entry-header .date img {
+            vertical-align: middle
+        }
+
+        .asd {
+            position: absolute;
+            top: 30px;
+            left: 10px;
+        }
+
+        .pic1 {
+            display: block;
+            margin: 00px auto;
+        }
+
+        .grey_block_1 {
+            padding: 20px;
+            max-width: 680px;
+            background: #EEE;
+            border: 1px solid #ddd;
+        }
+
+        .button1 {
+            display: block;
+            padding: 15px 20px;
+            background: #34ad34;
+            color: white;
+            text-align: center;
+            max-width: 400px;
+            border-radius: 40px;
+            margin-right: auto;
+            margin-left: auto;
+            cursor: pointer;
+
+        }
+
+        .button1 p {
+            font-weight: bold;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        @media (max-width:480px) {
+            .grey_block_1 {
+                padding: 10px;
+
+            }
+
+
+
+            .mail-header img {
+                float: none
+            }
+
+            .mail-header .inbox {
+                float: right
+            }
+
+            .mail-body .ava {
+                float: left;
+                width: 7%;
+                margin-left: 25px;
+                ;
+                margin-right: 10px;
+            }
+
+            .mail-header .title {
+                font-size: 15px
+            }
+        }
+
+        .comments-area-title{margin-top:2.57143rem ! important;margin-bottom:1.71429rem;padding-bottom:1.85714rem;border-bottom:1px dotted rgb(128,127,126)}.comments-area-title .hN{float:left;margin-top:0;margin-right:.85714rem;margin-bottom:0}@media only screen and (max-width:992px){li.comment .children:before{display:none!important}}@media only screen and (max-width:899px){.comments-area-title .hN{font-size:1.14286rem;line-height:1.51}}.commentlist{margin-top:-1.71429rem;margin-bottom:-1.71429rem;margin-left:0;padding-left:0;list-style:outside none none;border-left:0 none}li.comment{display:block;margin-bottom:0;padding-top:1.71429rem}li.comment + li.comment{border-top:1px dotted rgb(128,127,126)}li.comment .children{margin-bottom: 20px; position:relative;padding-left:.85714rem}li.comment .children:before{position:absolute;top:5rem;left:7px;display:block;width:.85714rem;height:.85714rem;content:"";border-bottom:1px solid rgb(128,127,126);border-left:1px solid rgb(128,127,126)}.comment-article{margin-bottom:0}.comment__avatar{margin-right:.85714rem; float:left;}.comment__avatar{margin-bottom:1.71429rem}.comment__content{position:relative;margin-bottom:1.71429rem}.comment__content img{margin-bottom:10px}.comment__links{font-size:.85714rem;line-height:2.01;float:right}@media screen and (min-width:0) and (max-width:768px){h3{font-size:19.5px!important}h1,h3{line-height:27px!important}.pin-article h1.title{font-size:26px}.comment._mobile{display:block}nav#mainmenu{visibility:hidden;display:none}.pin-article{margin-bottom:20px}#footer{margin-top:25px}.pin-article article.article{padding:20px}.wp-caption{width:100% ! important}.wp-caption img{margin:auto}.line{border:medium none;margin:30px 0 15px}.entry-info,.entry-info.viewcomments{width:auto;background:transparent none repeat scroll 0% 0%;position:relative}.entry-info .entry-date{display:block;text-align:center;width:inherit;padding:inherit;margin:5px auto}.product a img.w30{width:250px!important}}@media screen and (min-width:0) and (max-width:479px){.pin-article h1.title{font-size:22px;margin-top:-20px}.pin-container::after{display:none}.wp-caption img{width:100% ! important;padding:0}}@media screen and (min-width:0) and (max-width:379px){.pin-article h1.title{margin-top:-40px}}article,aside,footer,header,nav,section{display:block}html{font-size:100%}a:focus{outline:thin dotted rgb(51,51,51);outline-offset:-2px}a:hover,a:active{outline:0 none}img{max-width:100%;vertical-align:middle;border:0 none}body{margin:0;font-size:14px;line-height:20px;color:rgb(51,51,51);background-color:rgb(255,255,255)}a{text-decoration:none}a:hover{text-decoration:none}.row{margin-left:-20px}.row::before,.row::after{display:table;line-height:0;content:""}.row::after{clear:both}[class*="span"]{float:left;min-height:1px;margin-left:20px}.container{width:945px;padding:0 0 0 5px}.span12{width:940px}.container{margin-right:auto;margin-left:auto}.container::before,.container::after{display:table;line-height:0;content:""}.container::after{clear:both}p{margin:0 0 10px}h1,h3,h4{margin:10px 0;font-weight:700;line-height:20px;color:inherit;text-rendering:optimizelegibility}h1,h3{line-height:40px}h1{font-size:38.5px}h3{font-size:24.5px}h4{font-size:17.5px}ul,ol{padding:0;margin:0 0 10px 25px}li{line-height:20px}@media screen and (min-width:0) and (max-width:768px){.container{padding-left:0}}
+        .media__body{
+            margin-left: 70px;
+        }
+
+
